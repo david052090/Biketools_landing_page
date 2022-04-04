@@ -77,3 +77,20 @@ ul {
   flex-direction: column;
   padding: 250px 100px 100px 100px;
 }
+.banner h1 {
+  font-size: 50px;
+}
+.banner a {
+  width: 150px;
+  height: 40px;
+  background: #fff;
+  color: #000028;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+.banner a:hover {
+  background: #000028;
+  color: #fff;
+}
