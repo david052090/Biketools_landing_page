@@ -88,6 +88,10 @@ ul {
 .menu-links li {
   padding: 10px;
 }
+.menu-links li a:hover {
+  color: #f5a021;
+  transition: 0.7s;
+}
 /*SECCION BANNER HEADER*/
 .banner {
   width: 100%;
@@ -217,5 +221,10 @@ ul {
     content: "\f0c9";
     font-size: 40px;
     color: #fff;
+  }
+  .menu-links li {
+    padding: 10px;
+    margin-bottom: 39px;
+    margin-top: 18%;
   }
 }
