@@ -118,6 +118,7 @@ ul {
 .banner a:hover {
   background: #000028;
   color: #fff;
+  transition: 0.7s;
 }
 /*SECCION DE SERVICIOS*/
 .services {
