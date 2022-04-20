@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -180,17 +183,19 @@ ul {
     display: block;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -400px;
     background-color: #000028;
     width: 40%;
     height: 800px;
     padding: 10px;
     opacity: 0.9;
-    transform: translateX(-200px);
-    transition: transform 0.5s ease-in-out;
+
+    /*transform: translateX(-200px);*/
+    transition: all 0.5s ease-in-out;
   }
   .nav-menu ul.menu-links.show {
-    transform: translateX(0px);
+    /*transform: translateX(0px);*/
+    left: 0;
   }
   .menu-btn {
     position: absolute;
