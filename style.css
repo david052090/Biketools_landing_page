@@ -9,6 +9,13 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+li a {
+  font-weight: 200;
+  font-size: 17px;
+}
+h2 {
+  font-size: 24px;
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -92,7 +99,7 @@ ul {
   padding: 300px 100px 100px 100px;
 }
 .banner h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 .banner a {
   width: 150px;
@@ -158,6 +165,7 @@ ul {
 }
 .about-text h2 {
   margin-bottom: 10px;
+  font-size: 30px;
 }
 .footer {
   width: 100%;
