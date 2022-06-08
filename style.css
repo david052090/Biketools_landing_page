@@ -185,6 +185,31 @@ ul {
 .menu-btn {
   display: none;
 }
+/*SECTION WORKS*/
+.content_function{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+flex-direction: row;  
+  
+}
+.info_content_1{
+  width: 100%;
+}
+.info_content_1 img{
+  width: 100%;
+}
+.info_content_2{
+  width: 100%;
+  
+  padding: 40px;
+  text-align: center;
+}
+.info_content_2 img{
+  width: 200px;
+  
+}
 @media (max-width: 768px) {
   .footer p {
     font-size: 9px;
@@ -227,5 +252,11 @@ ul {
     padding: 10px;
     margin-bottom: 39px;
     margin-top: 18%;
+  }
+
+}
+@media (max-width:425px){
+  .content_function{
+    flex-direction: column;
   }
 }
